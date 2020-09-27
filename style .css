@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic ;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,.1,.1)), url(pp.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right ;
+    list-style-type: none ;
+    margin-top: 1px;
+    
+}
+
+
+
+.logo{
+    float: middle;
+}
+ul li{
+    display: inline-block;
+    margin-left:130px;
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    border :2px solid transparent;
+    transition: 0.6s ease;
+    position: fixed;
+    background-color: darkblue;
+    
+}
+ul li a:hover{
+    background-color: white;
+    color: #000;
+}
+
+
+.main{
+    max-width: 1200px;
+    margin:auto;
+    
+    
+}
+.title{
+    position: absolute;
+    top: 50%;
+
+    left: 75%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color:white ;
+    font-size: 90px;
+    text-align: center;
+}
+.title h2{
+    color: white;
+    font-size: 50px;
+}
+/*.....about...*/
+#about{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.left{
+    flex-basis: 50%;
+}
+.right{
+    flex-basis: 50%;
+}
+.right img{
+    width:50%;
+    height: 50%;
+    margin-right: 35%;
+}
+.text{
+    margin-right: 20px;
+}
+h3{
+    color: purple;
+    
+    margin-left: 50px;
+}
+h4{
+    font-style: italic;
+    color: rebeccapurple;
+    float: right;
+    margin-right: 40px;
+}
+#vision {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.visionleft img{
+    width: 50%;
+}
+#skill {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section_title{
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 10;
+}
+.education_container{
+    row-gap:10rem;
+    
+}
+.education_content{
+    display: -moz-inline-stack;
+    grid-template-columns: 2fr max-content 2fr;
+}
+.education_year, .education_race{
+    font-size: large;
+    margin-bottom: .35rem;
+}
+
+.education_score, .education_uni{
+    display: block;
+    font-size: medium;
+}
+.education_year, .education_uni{
+    text-align: left;
+    margin-left: 35%;
+}
+.education_race, .education_score{
+    text-align: right;
+    margin-right: 40%;
+}
+#join{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.joinleft,.joinright{
+    flex-basis: 50%;
+}
+
+
+.joinright img{
+    width: 75%%;
+}
+form{
+    max-width: 500px;
+    margin: 30px 0;
+}
+form input{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+}
+
+.commonbutton{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgb(130, 34, 185);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+#footer{
+    padding: 10px 0 40px;
+
+}
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid rgba(160, 177, 9, 0.692);
+
+}
+.copy{
+    text-align: center;
+}
+
+#contact{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.icons{
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.icons img{
+    display: block;
+    width: 30px;
+    max-width: 0 auto 20px;
+    cursor: pointer;
+    
+}
